@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>TinyTrack – Privacy Policy</title>
+  <title>Snuglog – Privacy Policy</title>
   <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet" />
   <style>
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
@@ -40,18 +40,6 @@
       align-items: center;
       gap: 0.5rem;
       margin-bottom: 1rem;
-    }
-
-    .logo-icon {
-      width: 36px;
-      height: 36px;
-      background: var(--sage);
-      border-radius: 10px;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      color: white;
-      font-size: 18px;
     }
 
     .logo-text {
@@ -121,6 +109,15 @@
     section p {
       font-size: 0.975rem;
       color: var(--text-mid);
+    }
+
+    section a {
+      color: var(--accent);
+      text-decoration: none;
+    }
+
+    section a:hover {
+      text-decoration: underline;
     }
 
     ul {
@@ -193,27 +190,29 @@
 
 <header>
   <div class="logo-mark">
-    <span class="logo-text">TinyTrack</span>
+    <span class="logo-text">Snuglog</span>
   </div>
   <h1>Privacy Policy</h1>
-  <p>Last updated: May 2026</p>
+  <p>Last updated: November 2026</p>
 </header>
 
 <main>
   <div class="intro-card">
-    TinyTrack is a baby care tracking app that helps parents log feeding sessions, sleep, diaper changes, medicine, and daily routines. Your privacy is a priority — this policy explains exactly how the app handles your information.
+    Snuglog is an offline-first baby care, growth, and developmental companion that helps parents log feeding sessions, sleep, diaper changes, medicine, growth measurements, developmental milestones, and memory journal entries. Your privacy is a priority — this policy explains exactly how the app handles your information.
   </div>
 
   <section>
     <h2>Information You Enter</h2>
-    <p>TinyTrack stores information you choose to enter, including:</p>
+    <p>Snuglog stores only the information you choose to enter on your device, including:</p>
     <ul>
-      <li>Baby name</li>
-      <li>Feeding logs and session durations</li>
-      <li>Sleep records</li>
-      <li>Diaper change entries</li>
-      <li>Medicine records</li>
-      <li>Reminder preferences</li>
+      <li>Baby profile details (name, gender, and date of birth)</li>
+      <li>Feeding logs, side alternation, and session durations</li>
+      <li>Sleep and nap records</li>
+      <li>Diaper change and medicine dosage records</li>
+      <li>Growth measurements (weight, length/height, head circumference, and checkup notes)</li>
+      <li>Developmental milestone progress</li>
+      <li>Memory Journal notes, moods, and optional photos you explicitly select via Apple's PhotosPicker</li>
+      <li>Reminder and unit preferences</li>
     </ul>
   </section>
 
@@ -221,39 +220,50 @@
 
   <section>
     <h2>How Your Data Is Stored</h2>
-    <p>All data is stored entirely on your device using Apple's SwiftData framework and local storage (UserDefaults). TinyTrack does not transmit your data to any server, and no data leaves your device.</p>
+    <p>All data is stored entirely on your device using Apple's SwiftData framework and local storage (UserDefaults). Snuglog requires no account, makes zero network calls, and never transmits your data to any external server.</p>
     <div class="highlight-box">
       <span>🔒</span>
-      Data shared between the app and its home screen widget is kept within a local App Group container, also on your device only.
+      Data shared between Snuglog and its Home Screen, Lock Screen, and Control Center widgets is kept strictly inside a local App Group container on your device only.
     </div>
   </section>
 
   <hr />
 
   <section>
+    <h2>Photos, Audio &amp; PDF Exports</h2>
+    <ul>
+      <li><strong>Photos:</strong> Optional memory photos are selected using Apple's privacy-preserving PhotosPicker and stored locally on your device. Snuglog does not request access to your full photo library or camera.</li>
+      <li><strong>Soothing Audio:</strong> Built-in sleep sounds (pink noise, rain, heartbeat, white noise, and lullaby chimes) are synthesized locally offline on your device. Snuglog never uses the microphone or records audio.</li>
+      <li><strong>PDF &amp; Summary Sharing:</strong> Pediatrician Visit Summary PDFs and Daily Summary cards are generated locally on your device and are only shared when you explicitly choose an app or recipient via the iOS Share Sheet.</li>
+    </ul>
+  </section>
+
+  <hr />
+
+  <section>
     <h2>Notifications</h2>
-    <p>TinyTrack uses Apple's local notification system to send you feeding and care reminders. These reminders are scheduled and delivered entirely on-device. No notification content is sent to external servers.</p>
+    <p>Snuglog uses Apple's local notification system to send optional feeding reminders. These reminders are scheduled and delivered entirely on-device, and no notification content is ever sent to external servers.</p>
   </section>
 
   <hr />
 
   <section>
-    <h2>Third-Party Services</h2>
-    <p>TinyTrack does not use any third-party analytics, advertising, or crash reporting services. The app uses only Apple system frameworks.</p>
+    <h2>Third-Party Services &amp; Data Sharing</h2>
+    <p>Snuglog does not use any third-party analytics, advertising, or crash reporting SDKs. The app uses only Apple system frameworks and does not collect, share, or sell any personal data.</p>
   </section>
 
   <hr />
 
   <section>
-    <h2>Data Sharing</h2>
-    <p>TinyTrack does not collect, share, or sell any personal data to third parties. Your data never leaves your device.</p>
+    <h2>Medical &amp; Reference Information Disclaimer</h2>
+    <p>Growth charts and milestone checklists are provided for personal informational tracking only and are adapted from <a href="https://www.who.int/tools/child-growth-standards/standards" target="_blank" rel="noopener noreferrer">WHO Child Growth Standards</a> and <a href="https://www.cdc.gov/act-early/milestones/index.html" target="_blank" rel="noopener noreferrer">CDC Developmental Milestones</a>. They are not a substitute for professional medical advice, diagnosis, or treatment. Always consult your pediatrician.</p>
   </section>
 
   <hr />
 
   <section>
     <h2>Children's Privacy</h2>
-    <p>TinyTrack is designed for use by parents and caregivers. The app does not knowingly collect data from children.</p>
+    <p>Snuglog is designed for use by parents and caregivers. Because all data stays exclusively on the parent's device, Snuglog does not knowingly collect personal data from children or parents.</p>
   </section>
 
   <hr />
@@ -267,12 +277,12 @@
 
   <section>
     <h2>Contact</h2>
-    <p>If you have any questions about this Privacy Policy, please contact: <a href="mailto:fereshte.zargaran@gmail.com" style="color: var(--accent);">fereshte.zargaran@gmail.com</a></p>
+    <p>If you have any questions about this Privacy Policy, please contact: <a href="mailto:fereshte.zargaran@gmail.com">fereshte.zargaran@gmail.com</a></p>
   </section>
 </main>
 
 <footer>
-  &copy; 2026 TinyTrack &nbsp;·&nbsp; <a href="mailto:fereshte.zargaran@gmail.com">fereshte.zargaran@gmail.com</a>
+  &copy; 2026 Snuglog &nbsp;·&nbsp; <a href="mailto:fereshte.zargaran@gmail.com">fereshte.zargaran@gmail.com</a>
 </footer>
 
 </body>
