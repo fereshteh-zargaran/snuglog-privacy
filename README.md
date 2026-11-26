@@ -1,1 +1,1 @@
-# tinytrack-privacy
+# snuglog-privacy
